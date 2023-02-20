@@ -4,9 +4,10 @@ import os
 import csv
 
 # open the census starter file
-censusCSV = os.path.join("..", "Resources", "census_starter.csv")
+censusCSV = os.path.join(".", "Resources", "census_starter.csv")
 
-# print(censusCSV)
+print(censusCSV)
+
 
 # create lists to store the data from the original csv file
 places = []
@@ -48,7 +49,6 @@ with open(outputLocation, "w", newline="") as outFile:
 
     # write a header row
     csvwriter.writerow(["Place", "Population", "Per Capita Income", "PovertyCount"])
-
     
 
 
