@@ -25,6 +25,7 @@ number = int(input("Enter a number: "))
 
 if number % 2 == 0:
      # % is the remainder after being divided by 2
+     # % can only be used for integers
     print("This number is even!")
     # this message only prints if the number is evenly divisible by 2
 
